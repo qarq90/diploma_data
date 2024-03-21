@@ -1,0 +1,101 @@
+.edit-profile {
+    background-image: url("../images/backgrounds/profile (2).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(63, 63, 63, 0.75);
+    -webkit-backdrop-filter: blur(5px) saturate(83%);
+    backdrop-filter: blur(5px) saturate(83%);
+    font-family: sans-serif;
+    padding: 5rem 15rem;
+    color: var(--primary-text-color);
+
+    > .header-title {
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 2rem;
+    }
+}
+
+.updated {
+    margin-top: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 0.5rem;
+    height: 2rem;
+    color: var(--primary-background-color);
+    background-color: var(--success-color-green);
+    letter-spacing: 1.5px;
+}
+
+.deleted {
+    margin-top: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    height: 2rem;
+    color: var(--primary-background-color);
+    background-color: var(--success-color-green);
+    letter-spacing: 1.5px;
+}
+
+.update-form {
+    > form {
+        padding: 0 15rem;
+
+        > .input-title {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+
+            > svg {
+                margin-right: 1rem;
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+        }
+
+        > label {
+            padding: 0.5rem 0;
+            font-size: 1.25rem;
+
+            > input {
+                width: 100%;
+                padding: 0.75rem;
+                outline: none;
+                background-color: var(--primary-text-color);
+                border: 1px transparent solid;
+                border-radius: 10px;
+                color: var(--secondary-background-color);
+                font-size: 1rem;
+
+                &:focus {
+                    border-radius: 10px;
+                    outline: none;
+                }
+            }
+        }
+
+        > button {
+            background-color: var(--primary-background-color);
+            margin: 2rem 0;
+            padding: 0.75rem;
+            width: 105%;
+            border: 1px transparent solid;
+            border-radius: 10px;
+            color: var(--secondary-text-color);
+            font-size: 1rem;
+            transition: 0.25s all ease-in;
+
+            &:hover {
+                background-color: var(--secondary-background-color);
+                cursor: pointer;
+            }
+        }
+    }
+}
