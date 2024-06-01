@@ -4,7 +4,9 @@
 ## Directory Structure
 
 diploma_data/
-│
+
+<br>
+
 ├── SEM 1/
 │ ├── $SEM_1_PPRS/
 │ ├── BCH (Basic Chemistry)/
@@ -14,7 +16,9 @@ diploma_data/
 │ ├── ENG (English)/
 │ ├── ICT (Information Technology)/
 │ ├── WPX (Workshop Practice)/
-│
+
+<br>
+
 ├── SEM 2/
 │ ├── $SEM_2_PPRS/
 │ ├── AMI (Applied Maths)/
@@ -31,7 +35,9 @@ diploma_data/
 │ ├── DTE (Digital Techniques)/
 │ ├── CGR (Computer Graphics)/
 │ ├── OOP (Object Oriented Programming in C++)/
-│
+
+<br>
+
 ├── SEM 4/
 │ ├── $SEM_4_PPRS/
 │ ├── DCC (Digital Communication)/
