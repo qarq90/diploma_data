@@ -3,9 +3,7 @@
 
 ## Directory Structure
 
-diploma_data/
-
-<br>
+- diploma_data/
 
     - SEM 1 :
         BCH (Basic Chemistry)
@@ -56,6 +54,8 @@ diploma_data/
         PWP (Programming In Python)
         WBP (Website Building via PHP)
 
+    - README.md
+
 
 Each `SEM` directory has a sub-directory called `$SEM_PPRS` which contains all important papers related to the semester's lectures and subjects.
 
@@ -63,9 +63,8 @@ Each `SEM` directory has a sub-directory called `$SEM_PPRS` which contains all i
 
 If you have any questions, suggestions, or feedback, please contact the repository maintainers at:
 
-- **Email:** maintainer@example.com
-- **GitHub Issues:** [Repository Issues](https://github.com/yourusername/diploma-data-repository/issues)
+- **Email:** scythethroughtheheart05@gmail.com
+- **GitHub:** [[Repository Issues](https://github.com/yourusername/diploma-data-repository/issues)](https://github.com/qarq90/qarq90)
 
 ---
 
-*Note: Replace placeholder URLs and email addresses with actual contact information and repository links.*
