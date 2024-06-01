@@ -3,7 +3,7 @@
 
 ## Directory Structure
 
-- diploma_data/
+### diploma_data/
 
     - SEM 1 :
         BCH (Basic Chemistry)
