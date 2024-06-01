@@ -85,7 +85,7 @@ To use the data and scripts in this repository, follow these steps:
 If you have any questions, suggestions, or feedback, please contact the repository maintainers at:
 
 - **Email:** scythethroughtheheart05@gmail.com
-- **GitHub:** [[Repository Issues](https://github.com/yourusername/diploma-data-repository/issues)](https://github.com/qarq90/qarq90)
+- **GitHub:** (https://github.com/qarq90/qarq90)
 
 ---
 
