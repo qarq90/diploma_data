@@ -1,0 +1,170 @@
+:root {
+    /* General */
+
+    --primary-background-color: #202020;
+    --primary-text-color: #9f9f9f;
+    --secondary-background-color: #3f3f3f;
+    --secondary-text-color: #cccccc;
+
+    /* Misc */
+
+    --error-color-red: #ff003c;
+    --success-color-green: #00ff00;
+    --primary-hover-color: #333333;
+
+    /*  Nav & Footer  */
+
+    --NF-background-color: #1f1f1f;
+    --NF-text-color: #9f9f9f;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav,
+.footer {
+    font-family: sans-serif;
+    width: 100vw;
+    background-color: var(--NF-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    > ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+
+        > a {
+            text-decoration: none;
+            padding: 1.5rem;
+            color: var(--NF-text-color);
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                color: var(--primary-text-color);
+            }
+
+            > svg {
+                width: 1rem;
+                height: 1rem;
+                margin-right: 0.5rem;
+                color: var(--NF-text-color);
+
+                &:hover {
+                    color: var(--primary-text-color);
+                }
+            }
+        }
+    }
+}
+
+img {
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-article {
+    display: flex;
+    align-items: center;
+}
+
+.article-title {
+    padding: 2rem 0;
+    font-size: 3.75rem;
+    color: var(--primary-text-color);
+}
+
+.short-para {
+    backdrop-filter: blur(5px) saturate(83%);
+    -webkit-backdrop-filter: blur(5px) saturate(83%);
+    background-color: rgba(50, 50, 50, 0.75);
+    font-size: 1.75rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 2rem;
+    color: var(--primary-text-color);
+}
+
+.article-container {
+    font-family: "Times New Roman", serif;
+    padding: 2rem 7rem;
+}
+
+.full_img {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.flex_img {
+    margin-right: 5rem;
+    width: 20rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+.svg-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    z-index: -5;
+}
+
+svg {
+    display: inline-block;
+    position: relative;
+    z-index: 5;
+    height: 100%;
+}
+
+.author {
+    color: var(--primary-text-color);
+}
+
+.hidden {
+    z-index: 2;
+    opacity: 0;
+    scale: 0.9;
+    transition: 1s all ease;
+}
+
+.show {
+    z-index: 1000000;
+    scale: 1;
+    opacity: 1;
+}
+
+.trail {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -5%;
+    scale: 1.01;
+}
+
+.user-articles {
+    background-image: url("../images/backgrounds/profile (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: var(--primary-text-color);
+}

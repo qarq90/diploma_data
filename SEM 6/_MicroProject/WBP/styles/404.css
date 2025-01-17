@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.page-not-found {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    > h1 {
+        font-size: 7rem;
+        color: var(--primary-text-color);
+    }
+    > h3 {
+        font-size: 4rem;
+        color: var(--primary-text-color);
+    }
+}

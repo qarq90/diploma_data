@@ -1,0 +1,133 @@
+
+.user-profile {
+    background-image: url("../images/backgrounds/profile (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(63, 63, 63, 0.75);
+    -webkit-backdrop-filter: blur(5px) saturate(83%);
+    backdrop-filter: blur(5px) saturate(83%);
+    font-family: sans-serif;
+    padding: 5rem 15rem;
+    color: var(--primary-text-color);
+    height: 30rem;
+
+    > .header-title {
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 2rem;
+    }
+}
+
+.user-articles {
+    background-image: url("../images/backgrounds/profile (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(63, 63, 63, 0.75);
+    -webkit-backdrop-filter: blur(5px) saturate(83%);
+    backdrop-filter: blur(5px) saturate(83%);
+    font-family: sans-serif;
+    padding: 5rem 15rem;
+    color: var(--primary-text-color);
+
+    > .header-title {
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 2rem;
+    }
+
+    > .user-articles {
+        > a {
+            color: var(--primary-text-color);
+        }
+    }
+}
+
+.profile-values {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+
+    > .title-icon {
+        > svg {
+            width: 2rem;
+            height: 2rem;
+            margin-right: 2rem;
+        }
+    }
+
+    > .value-content {
+        width: 90%;
+    }
+
+    > div {
+        > button {
+            height: 2rem;
+            background-color: transparent;
+            border: none;
+            width: 2rem;
+
+            > svg {
+                background-color: transparent;
+                width: 1.75rem;
+                height: 1.75rem;
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.detail-value {
+    padding-top: 0.5rem;
+}
+
+#password {
+    display: none;
+}
+
+.btn-container {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    > form {
+        > .del-btn {
+            background-color: var(--secondary-background-color);
+            margin: 0.5rem 0;
+            padding: 0.75rem;
+            width: 520px;
+            border: 1px transparent solid;
+            border-radius: 10px;
+            color: var(--secondary-text-color);
+            font-size: 1rem;
+            transition: 0.25s all linear;
+
+            &:hover {
+                background-color: var(--error-color-red);
+                cursor: pointer;
+            }
+        }
+
+        > #del-title {
+            display: none;
+        }
+    }
+}
+
+.error {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem;
+    height: 2rem;
+    color: var(--primary-color-text);
+    background-color: rgba(255, 0, 60, 0.65);
+    letter-spacing: 1.5px;
+}
