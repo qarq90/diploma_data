@@ -17,6 +17,7 @@
         AMI (Applied Maths)
         BCC (Basics of Communication)
         BEC (Basic Electronics)
+        EEC (Electrical Engineering)
         CPH (Computer Hardware)
         PIC (Programming In C)
         WPD (Website builtding in HTML)
