@@ -64,7 +64,6 @@
 
 Each `SEM` directory has a sub-directory called `$SEM_PPRS` which contains all important papers related to the semester's lectures and subjects.
 <br>
-Additionally, each semester has a `.txt` file (e.g., `SEM1_overview.txt`) that provides a brief overview of the semester.
 
 ## Usage
 
@@ -74,7 +73,7 @@ To use the data and scripts in this repository, follow these steps:
 
     ```bash
     git clone https://github.com/qarq90/diploma_data
-    cd diploma-data-repository
+    cd diploma-data
     ```
 
 2. **Explore the data:**
